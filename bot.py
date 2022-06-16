@@ -30,8 +30,8 @@ def error(update: Update, context: CallbackContext, error):
 
 
 def main():
-    TOKEN = os.environ.get('TOKEN')
-    APP_NAME = os.environ.get('APP_NAME')
+    TOKEN = os.environ.get('5518979823:AAFvoDRPTUprkLTV3Q4rS2soV7BFL64pHLs')
+    APP_NAME = os.environ.get('spotyspotyfy')
 
     # Port is given by Heroku
     PORT = os.environ.get('PORT')
